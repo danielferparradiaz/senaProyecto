@@ -1,0 +1,98 @@
+.background-login{
+    /* background: linear-gradient(34deg, rgba(251,233,63,1) 0%, rgba(255,46,89,1) 100%); */
+    height: 100vh;
+    width: 100%;
+    right: 0;
+    position: fixed;
+    top: 0;
+    z-index: -2;
+}
+.background-login img{
+    /* filter: blur(10px); */
+    height: 100%;
+    display: block;
+    opacity: .5;
+    /* position: fixed; */
+    position: absolute;
+    z-index: -2;
+    background-size: cover;
+}
+.background-login::after{
+    content: "";
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(34deg, rgba(251,233,63,1) 0%, rgba(255,46,89,1) 100%);
+    opacity: .8;
+    border-radius: 0% 100% 0% 100% / 100% 0% 100% 0%;
+    z-index: 1;
+
+}
+
+.blur{
+    background: rgba(255, 255, 255, 1);
+    backdrop-filter: blur(10px);
+}
+a{
+    text-decoration: none;
+}
+.rounded-2em{
+    border-radius: 2em;
+}
+div.borde{
+    border-radius: 2em;
+    overflow: hidden;
+}
+.shadow-inset{
+    box-shadow: inset 0 0 40px #ffffff55;
+    border-top: 2px solid #ffffff88;
+    border-right: 2px solid #ffffff88;
+}
+.white{
+    background: white;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: none;
+  }
+body::-webkit-scrollbar {
+    width: 8px;
+    background: transparent ;
+}
+body::-webkit-scrollbar-thumb{
+    /* background: #6e6e6e; */
+    background: #535353;
+    border-radius: 0em;
+
+}
+body::-webkit-scrollbar-thumb:hover{
+    background: #7a7a7a;
+
+}
+.fs-lg-1{
+    font-size: 30px;
+}
+
+.back{
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    z-index: 3;
+}
+.back a i{
+    text-shadow: 0 0 10px #00000050;
+}
+header{
+    display: none !important;
+}
+.text-bg-light{
+    background: transparent !important;
+}
+.first-item, .categorias--, .enlaces-de-la-pagina--, .ayuda-informacion{
+    display: none;
+}
+footer{
+    padding: 0px 0px 30px 0px;
+}
+img.logo-lr{
+    width: 80px;
+}
